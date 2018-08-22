@@ -48,6 +48,8 @@ import org.apache.hadoop.hive.ql.plan.OperatorDesc;
  *
  * 该类包含在沿袭中遍历操作符树时传递的沿袭上下文。上下文包含传递给执行前钩子的LineageInfo结构。
  *
+ * 测试
+ *
  */
 public class LineageCtx implements NodeProcessorCtx {
 
